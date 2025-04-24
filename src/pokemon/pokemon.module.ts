@@ -16,5 +16,6 @@ import { MongooseModule } from '@nestjs/mongoose';
       },
     ]),
   ],
+  exports: [ PokemonService],
 })
 export class PokemonModule {}
